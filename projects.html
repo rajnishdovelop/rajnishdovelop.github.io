@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    body{
+        background-color: #1a1c2b;
+    }
+
+    .main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+        color: aliceblue;
+    }
+
+    h3 {
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .content {
+        height: calc(70vw * 470 / 612);
+       text-align: center;
+        width: 70vw;
+        padding-top: 50px;
+
+    }
+
+    .project-video {
+        background-image: url(bg2.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    video {
+        width: 68%;
+    }
+.back-btn{
+    background-color: rgb(19, 250, 177);
+   
+    box-shadow: 0px 0px 40px 1px #7dff97;
+    border-radius: 50px;
+    border: none;
+    font-weight: 900;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+  
+    transition: 300ms all ease-in-out;
+}
+.back-btn:hover{
+background-color: rgb(23, 255, 108);
+}
+
+
+    @media (max-width: 500px) {
+
+
+        .content {
+        height: calc(90vw * 470 / 612);
+       
+        width: 90vw;
+
+    }
+
+        
+    }
+    
+
+</style>
+
+<body>
+
+    <div class="main">
+
+        <div class="content">
+            <h2> My First Project</h2>
+            <h3>Amazon Clone</h3>
+
+            <div class="project-video">
+
+                <video controls>
+                    <source src="Screen recording 2024-02-01 23.54.27.webm" type="video/webm">
+                </video>
+
+            </div>
+            <a href="index.html">
+                <button title="back" class="back-btn">
+                   Go Back
+                   </button></a> 
+            
+        </div>
+
+    </div>
+
+</body>
+
+</html>
